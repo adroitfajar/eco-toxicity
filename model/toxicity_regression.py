@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on 26/10/2023
-
-Author:
-    Adroit T.N. Fajar, Ph.D.
-    Assistant Professor | Junior Principal Investigator
-    Data Science Team | Center for Energy Systems Design (CESD)
-    International Institute for Carbon-Neutral Energy Research (I²CNER)
-    Kyushu University | 九州大学
-    744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
         
 Eco-toxicity of ILs --> tested againts Aliivibrio fischeri
 Learning and prediction by Random Forest Regressor
@@ -247,4 +239,5 @@ print('Prediction of descriptor data: ')
 print(value_pred)
 
 ### export data into a csv file
+
 np.savetxt('predicted_EC50.csv', value_pred, delimiter=',')
